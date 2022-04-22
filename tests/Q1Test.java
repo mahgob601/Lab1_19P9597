@@ -11,21 +11,20 @@ public class Q1Test {
 
 
     @Test(timeout = 1000)
-    public void testfruitDivisor()
+    public void testfruitDivisorEven()
     {
         Q1 tester = new Q1();
-        Q1 tester2 = new Q1();
         Assert.assertEquals("8 should give YES", "YES", tester.fruitDivisor(8));
     }
     @Test(timeout = 1000)
     public void testfruitDivisorInvalidCase()
     {
         Q1 tester = new Q1();
-        Assert.assertEquals("0 should give NO", "NO", tester.fruitDivisor(0));
+        Assert.assertEquals("0 should give ERROR", "ERROR", tester.fruitDivisor(0));
     }
 
     @Test(timeout = 1000)
-    public void testfruitDivisorError()
+    public void testfruitDivisorOdd()
     {
         Q1 tester = new Q1();
         Assert.assertEquals("7 should give NO", "NO", tester.fruitDivisor(7));
