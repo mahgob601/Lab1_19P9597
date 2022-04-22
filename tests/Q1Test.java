@@ -8,7 +8,7 @@ import org.junit.rules.Timeout;
 import static org.junit.Assert.*;
 
 public class Q1Test {
-    
+
 
     @Test(timeout = 1000)
     public void testfruitDivisor()
