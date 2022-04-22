@@ -1,11 +1,9 @@
 public class Q2
 {
 
+    Q2(){}
 
-    private int iters;
-
-
-    public String inEquilibrium(int iter,int[][] arr)
+    public static String inEquilibrium(int iter,int[][] arr)
     {
         if(iter < 1 || iter > 100 || iter != arr.length)
         {
